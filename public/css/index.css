@@ -68,6 +68,7 @@ div>ul {
 }
 .lesson-three-task-one a[href] {
     color:white;
+    background: black;
 }
 .lesson-three-task-two li[value] {
     color: yellow;
@@ -75,7 +76,7 @@ div>ul {
 .lesson-three-task-three li[value="3"] {
     background: red;
 }
-.lesson-three-task-four button[class="primary action"] {
+.lesson-three-task-four [class="primary action"] {
     background: rgb(1, 1, 85);
 }
 .lesson-three-task-five button[class|="secondary"] {
@@ -96,7 +97,7 @@ div>ul {
 .lesson-three-task-nine h2::first-letter {
     color: red;
 }
-.lesson-three-task-ten p::first-line {
+.lesson-three-task-ten::first-line {
     background: yellow;
 }
 .lesson-three-task-eleven input::placeholder {
